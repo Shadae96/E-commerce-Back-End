@@ -21,8 +21,9 @@ sequelize.sync({ force: true}).then(()=>{
 
 seedCategories();
 seedProducts();
-seedProductTags();
 seedTags();
+seedProductTags();
+
 
 }).then(()=> {
 
